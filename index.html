@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Calculator</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="operations.js"></script>
+</head>
+<body>
+    <table id="box">
+        <tr>
+            <td><input type="text" placeholder="Enter any number" id="input"></td>
+        </tr>
+        <tr>
+            <td><button class="btn" onclick="Solve('1')">1</button></td>
+            <td><button class="btn" onclick="Solve('2')">2</button></td>
+            <td><button class="btn" onclick="Solve('3')">3</button></td>
+            <td><button class="btn"  onclick="Solve('+')">+</button></td>
+            
+        </tr>
+        <tr>
+            <td><button class="btn" onclick="Solve('4')">4</button></td>
+            <td><button class="btn" onclick="Solve('5')">5</button></td>
+            <td><button class="btn" onclick="Solve('6')">6</button></td>
+            <td><button class="btn" onclick="Solve('-')">-</button></td>
+            
+        </tr>
+        <tr>
+            <td><button class="btn" onclick="Solve('7')">7</button></td>
+            <td><button class="btn" onclick="Solve('8')">8</button></td>
+            <td><button class="btn" onclick="Solve('9')">9</button></td>
+            <td><button class="btn" onclick="Solve('*')">*</button></td>
+            
+        </tr>
+        <tr>
+            <td><button class="btn" onclick="Solve('0')">0</button></td>
+            <td><button class="btn" onclick="Solve('.')">.</button></td>
+            <td><button class="btn"  onclick="Result()">=</button></td>
+            <td><button class="btn" onclick="Solve('/')">/</button></td>
+            
+        </tr>
+        <tr>
+            <td><button class="btn" onclick="Clear()"> Clear </button></td>
+            <td><button class="btn" onclick="Back()"> X </button></td>
+        </tr>
+    </table>
+</body>
+</html>
